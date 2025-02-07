@@ -22,12 +22,30 @@
 
 .orange {
     background-color: rgba(255, 144, 14, 0.1);
+
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
 }
 
 /* navbar styles */
 
+.brand {
+    font-weight: 700px;
+    font-size: 3rem;
+}
+
+
 .navbar {
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-item {
@@ -47,4 +65,31 @@
 .banner {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* banner styles */
+
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-weight: 700px;
+    font-size: 4rem;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+/* reponsive media */
+@media screen and (max-width:576px) {
+
+    .navbar,
+    .nav-link {
+        flex-direction: column;
+    }
 }
