@@ -200,13 +200,37 @@ main>section {
 
 }
 
+#badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+    background-color: #FF900E;
+    gap: 54px;
+
+}
+
+
+#year {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.art img {
+    width: 100%;
+
+}
+
 /* reponsive media */
 
 @media screen and (max-width:576px) {
 
     .navbar,
     .nav-link,
-    .teams {
+    .teams,
+    .future {
         flex-direction: column;
     }
 
@@ -229,6 +253,11 @@ main>section {
 
     .our-service {
         margin-left: 20px;
+    }
+
+    #badge {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .sponsor-info {
@@ -254,5 +283,10 @@ main>section {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+
+    #badge {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
